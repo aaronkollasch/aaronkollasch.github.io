@@ -14,10 +14,6 @@
     {% endif %}
   </title>
 
-  {% include google-analytics.html %}
-  
-  {% seo %}
-
   <!-- CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 <!--   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" /> -->
@@ -30,4 +26,8 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
 
   {% include custom-head.html %}
+  
+  {% seo %}  
+  
+  {% include google-analytics.html %}
 </head>
