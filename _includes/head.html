@@ -15,9 +15,12 @@
   </title>
 
   {% include google-analytics.html %}
+  
+  {% seo %}
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+<!--   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" /> -->
   {% include font-includes.html %}
 
   <!-- Icons -->
