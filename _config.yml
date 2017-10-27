@@ -27,6 +27,10 @@ github_username:  aaronkollasch
 google_analytics: UA-108743319-1
 show_downloads: false
 
+url: https://aaronkollasch.com   # with the https protocol
+enforce_ssl: aaronkollasch.com   # without any protocol
+
+
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-minimal
